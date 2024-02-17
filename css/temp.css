@@ -88,6 +88,9 @@ i:hover{
 .header .logo{
     width: 70px;
 }
+.header .logo:hover{
+    cursor: pointer;
+}
 .header .links{
     position: relative;
 }
@@ -164,11 +167,11 @@ i:hover{
     background-image: url(../imgs/mountcover.jpg);
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 58px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 .landingsec .introsec{
     text-align: center;
@@ -311,6 +314,9 @@ i:hover{
 .portfolio .card img{
     max-width: 100%;
     transition-duration: 0.5s;
+}
+.portfolio .card:hover{
+    cursor: pointer;
 }
 .portfolio .card:hover img{
     transform: scale(1.1);
@@ -477,5 +483,11 @@ i:hover{
 .footer span{
     color: var(--main-color);
     font-weight: bold;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer:hover{
+    cursor: default;
 }
 /* End Footer Section  */
