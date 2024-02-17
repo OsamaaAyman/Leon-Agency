@@ -54,6 +54,7 @@ i:hover{
     font-weight: 800;
     letter-spacing: -4px;
     margin: 25px 0 0 0;
+    cursor: default;
 }
 .specialheading + p{
     margin-top: -30px;
@@ -320,9 +321,6 @@ i:hover{
     padding: 60px 0;
     /* background-color: white; */
 }
-.about .container{
-    overflow: hidden;
-}
 .about .content{
     margin-top: 80px;
     display: flex;
@@ -391,6 +389,9 @@ i:hover{
     line-height: 1.5;
 }
 @media (max-width: 991px){
+    .about .container{
+        overflow: hidden;
+    }
     .about .content{
         flex-direction: column;
         text-align: center;
